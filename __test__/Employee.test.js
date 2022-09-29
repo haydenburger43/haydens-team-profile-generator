@@ -1,24 +1,17 @@
 const emoloyee = require('../lib/employee');
-// name
-
-// Id
-
-// email
-
-//role
 
  test ('getName employee', () => {
-
+    expect(getName()).toEqual(expect.any(String));
  });
 
 test ('GetId employee', () => {
-
+    expect(GetId()).toEqual(expect.any(Number));
 });
 
 test ('getEmail employee', () => {
-
+    expect(getEmail()).toContainEqual(expect.any("@, .com"));
 });
 
 test ('getRole employee', () => {
-
+    expect(getRole()).toContainEqual(expect.any(string));
 });
