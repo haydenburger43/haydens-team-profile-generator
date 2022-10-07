@@ -1,4 +1,4 @@
-const emoloyee = require('../lib/engineer');
+const employee = require('../lib/engineer');
 
 test ('getName engineer', () => {
     expect(getName()).toEqual(expect.any(String));
