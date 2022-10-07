@@ -3,3 +3,7 @@
 ## this is still in the works
 ## uses jest and inquirer
 ## created by hayden carr help from Brian W
+
+## link to github repo https://github.com/haydenburger43/haydens-team-profile-generator
+
+## link to walkthrough video 
